@@ -1,0 +1,24 @@
+{
+    "name": "provasyscoin",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "git+https://github.com/gleal17/provaSysCoin.git",
+    "keywords": [],
+    "author": "gleal17 <guilhermelml@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/gleal17/provaSysCoin/issues"
+    },
+    "homepage": "https://github.com/gleal17/provaSysCoin#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "nodemon": "^1.19.3"
+    }
+}
